@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | StatSage</title>
+    <!-- The Normalize File To Reset All Proprites  -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- The Font Aswesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- The main Style File  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="sidebar">
+        <div class="container">
+          <div class="logo">
+            <div>
+              <i class="fa-brands fa-staylinked"></i>
+              <h2>StatSage</h2>
+            </div>
+            <i class="fa-solid fa-xmark close"></i>
+            <i class="fa-regular fa-circle menu-toggle"></i>
+            <i class="fa-regular fa-circle-dot menu-toggle dot active"></i>
+          </div>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-solid fa-chart-simple"></i>
+                <h4>Dashboard</h4>
+                <span class="circle">5</span>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Analytics</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>CRM</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>eCommerce</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Logistics</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Academy</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-solid fa-layer-group"></i>
+                <h4>Layouts</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Collapsed menu</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Content navbar</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Content nav + Sidebar</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Horizontal</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Without menu</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Without navbar</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Fluid</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Container</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Blank</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-regular fa-copy"></i>
+                <h4>Front Pages</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Landing</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Pricing</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Payment</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Checkout</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Help Center</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="section-title">apps & pages</h3>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-regular fa-envelope"></i>
+                <h4>Email</h4>
+                <span class="accordion-toggle"> </span>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-regular fa-message"></i>
+                <h4>Chat</h4>
+                <span class="accordion-toggle"> </span>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-regular fa-calendar-plus"></i>
+                <h4>Calendar</h4>
+                <span class="accordion-toggle"> </span>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-brands fa-dropbox"></i>
+                <h4>Kanban</h4>
+                <span class="accordion-toggle"> </span>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h4>eCommerce</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Dashboard</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Products</h4>
+                      <span class="accordion-toggle">
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                      </span>
+                    </div>
+                    <div class="accordion-content">
+                      <div class="sub-sub-accordion">
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Product List</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Add Product</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Category Product</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Order</h4>
+                      <span class="accordion-toggle">
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                      </span>
+                    </div>
+                    <div class="accordion-content">
+                      <div class="sub-sub-accordion">
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Order List</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Order Details</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Customer</h4>
+                      <span class="accordion-toggle">
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                      </span>
+                    </div>
+                    <div class="accordion-content">
+                      <div class="sub-sub-accordion">
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>All Customers</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Customer Details</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Manage Reviews</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Referrals</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Settings</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-solid fa-book-open"></i>
+                <h4>Academy</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Dashboard</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>My Course</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Course Details</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header open">
+                <i class="fa-solid fa-truck"></i>
+                <h4>Logistics</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content active">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header open">
+                      <a href="dashboard-logistics.html">
+                        <h4>Dashboard</h4>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Fleet</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <h4>Invoice</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>List</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Preview</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Edit</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Add</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-solid fa-user"></i>
+                <h4>Users</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>List</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>View</h4>
+                      <span class="accordion-toggle">
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                      </span>
+                    </div>
+                    <div class="accordion-content">
+                      <div class="sub-sub-accordion">
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Account</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Security</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Billing & Plans</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Notifications</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Connections</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-solid fa-gear"></i>
+                <h4>Roles & Permissions</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Roles</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Permissions</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <i class="fa-solid fa-file"></i>
+                <h4>Pages</h4>
+                <span class="accordion-toggle">
+                  <i class="fa-solid fa-chevron-right arrow"></i>
+                </span>
+              </div>
+              <div class="accordion-content">
+                <div class="sub-accordion">
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>User Profile</h4>
+                      <span class="accordion-toggle">
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                      </span>
+                    </div>
+                    <div class="accordion-content">
+                      <div class="sub-sub-accordion">
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Profile</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Teams</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Projects</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Connections</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Account Settings</h4>
+                      <span class="accordion-toggle">
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                      </span>
+                    </div>
+                    <div class="accordion-content">
+                      <div class="sub-sub-accordion">
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Account</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Security</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Billing & Plans</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Notifications</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Connections</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>FAQ</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Pricing</h4>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="accordion-header">
+                      <h4>Misc</h4>
+                      <span class="accordion-toggle">
+                        <i class="fa-solid fa-chevron-right arrow"></i>
+                      </span>
+                    </div>
+                    <div class="accordion-content">
+                      <div class="sub-sub-accordion">
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Error</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Under Maintenance</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Coming Soon</h4>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h4>Not Authorized</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <main class="container">
+          <header class="header">
+            <div class="toggle-navbar">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="search">
+              <i class="fa-solid fa-search"></i>
+              <input type="text" placeholder="Search..." />
+            </div>
+            <div class="icons">
+              <div class="translate">
+                <span class="tran-icon">
+                  <i class="fa-solid fa-language"></i>
+                </span>
+                <div class="select-lang">
+                  <label for="en">
+                    <h4>English</h4>
+                    <input type="radio" name="translate" id="en" checked />
+                  </label>
+                  <label for="ar">
+                    <h4>Aracic</h4>
+                    <input type="radio" name="translate" id="ar" />
+                  </label>
+                  <label for="fr">
+                    <h4>French</h4>
+                    <input type="radio" name="translate" id="fr" />
+                  </label>
+                  <label for="ge">
+                    <h4>German</h4>
+                    <input type="radio" name="translate" id="ge" />
+                  </label>
+                </div>
+              </div>
+              <div class="mode">
+                <span class="mode-icon">
+                  <i class="fa-solid fa-moon"></i>
+                </span>
+                <div class="select-mode">
+                  <label for="light">
+                    <i class="fa-regular fa-sun"></i>
+                    <h4>Light</h4>
+                    <input type="radio" name="mode" id="light" />
+                  </label>
+                  <label for="dark">
+                    <i class="fa-solid fa-moon"></i>
+                    <h4>Dark</h4>
+                    <input type="radio" name="mode" id="dark" checked />
+                  </label>
+                  <label for="system">
+                    <i class="fa-solid fa-desktop"></i>
+                    <h4>System</h4>
+                    <input type="radio" name="mode" id="system" />
+                  </label>
+                </div>
+              </div>
+              <div class="shortcuts">
+                <span class="shortcuts-icon">
+                  <i class="fa-solid fa-object-ungroup"></i>
+                </span>
+                <div class="select-shortcuts">
+                  <div class="heading">
+                    <h4>Shortcuts</h4>
+                    <i class="fa-solid fa-plus plue-icon"></i>
+                  </div>
+                  <div class="body">
+                    <div class="boxes">
+                      <div class="box">
+                        <span>
+                          <i class="fa-solid fa-calendar-plus"></i>
+                        </span>
+                        <h4>Calandar</h4>
+                        <small>Appointments</small>
+                      </div>
+                      <div class="box">
+                        <span>
+                          <i class="fa-solid fa-file-invoice-dollar"></i>
+                        </span>
+                        <h4>Invoice App</h4>
+                        <small>Manage Accounts</small>
+                      </div>
+                      <div class="box">
+                        <span>
+                          <i class="fa-solid fa-user"></i>
+                        </span>
+                        <h4>User App</h4>
+                        <small>Manage Users</small>
+                      </div>
+                      <div class="box">
+                        <span>
+                          <i class="fa-solid fa-users"></i>
+                        </span>
+                        <h4>Role Management</h4>
+                        <small>Permissions</small>
+                      </div>
+                      <div class="box">
+                        <span>
+                          <i class="fa-solid fa-desktop"></i>
+                        </span>
+                        <h4>Dashboard</h4>
+                        <small>User Dashboard</small>
+                      </div>
+                      <div class="box">
+                        <span>
+                          <i class="fa-solid fa-gear"></i>
+                        </span>
+                        <h4>Settings</h4>
+                        <small>Account Settings</small>
+                      </div>
+                      <div class="box">
+                        <span>
+                          <i class="fa-solid fa-question"></i>
+                        </span>
+                        <h4>FAQs</h4>
+                        <small>FAQs & Articles</small>
+                      </div>
+                      <div class="box">
+                        <span>
+                          <i class="fa-regular fa-square"></i>
+                        </span>
+                        <h4>Model</h4>
+                        <small>Useful Popups</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="notifications">
+                <span class="bell-icon">
+                  <i class="fa-solid fa-bell"></i>
+                </span>
+                <div class="select-bell">
+                  <div class="heading">
+                    <h4>Notifications</h4>
+                    <div class="message">
+                      <span><span class="num">5</span> New</span>
+                      <i class="fa-solid fa-envelope-open"></i>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="boxes">
+                      <div class="box">
+                        <div class="avatar">
+                          <img src="images/avatar-01.png" alt="">
+                        </div>
+                        <div class="text">
+                          <h4>New Message</h4>
+                          <p>You have new message from John</p>
+                          <span>1h ago</span>
+                        </div>
+                        <span class="dot active"></span>
+                      </div>
+                      <div class="box">
+                        <div class="avatar">
+                          <img src="images/avatar-02.png" alt="">
+                        </div>
+                        <div class="text">
+                          <h4>New Message</h4>
+                          <p>You have new message</p>
+                          <span>1h ago</span>
+                        </div>
+                        <span class="dot"></span>
+                      </div>
+                      <div class="box">
+                        <div class="avatar">
+                          <img src="images/avatar-03.png" alt="">
+                        </div>
+                        <div class="text">
+                          <h4>New Message</h4>
+                          <p>You have new message</p>
+                          <span>4h ago</span>
+                        </div>
+                        <span class="dot active"></span>
+                      </div>
+                      <div class="box">
+                        <div class="avatar">
+                          <img src="images/avatar-04.png" alt="">
+                        </div>
+                        <div class="text">
+                          <h4>New Message</h4>
+                          <p>You have new message</p>
+                          <span>30m ago</span>
+                        </div>
+                        <span class="dot"></span>
+                      </div>
+                      <div class="box">
+                        <div class="avatar">
+                          <img src="images/avatar-01.png" alt="">
+                        </div>
+                        <div class="text">
+                          <h4>New Message</h4>
+                          <p>You have new message</p>
+                          <span>12h ago</span>
+                        </div>
+                        <span class="dot"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="avatar">
+                <img src="images/avatar.png" alt="" />
+                <span></span>
+              </div>
+            </div>
+          </header>
+          <!-- Start Dashboard Logistics Page -->
+          <div class="dashboard-page">
+            <!-- Start Cards Widget -->
+            <div class="cards-widget">
+              <div>
+                <div class="card">
+                  <div class="card-heading">
+                    <span class="icon">
+                      <i class="fa-solid fa-truck"></i>
+                    </span>
+                    <h2 class="num">24</h2>
+                  </div>
+                  <div class="card-body">
+                    <p>On route vehicles</p>
+                    <span>+18.3% <small>than last week</small></span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-heading">
+                    <span class="icon">
+                      <i class="fa-solid fa-info"></i>
+                    </span>
+                    <h2 class="num">45</h2>
+                  </div>
+                  <div class="card-body">
+                    <p>Vehicles with errors</p>
+                    <span>-8.7% <small>than last week</small></span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="card">
+                  <div class="card-heading">
+                    <span class="icon">
+                      <i class="fa-solid fa-object-ungroup"></i>
+                    </span>
+                    <h2 class="num">12</h2>
+                  </div>
+                  <div class="card-body">
+                    <p>Deviated from route</p>
+                    <span>+4.3% <small>than last week</small></span>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-heading">
+                    <span class="icon">
+                      <i class="fa-regular fa-clock"></i>
+                    </span>
+                    <h2 class="num">83</h2>
+                  </div>
+                  <div class="card-body">
+                    <p>Late vehicles</p>
+                    <span>-2.5% <small>than last week</small></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Cards Widget -->
+            <div class="flex">
+              <!-- Start Vehicles Overview Widget -->
+              <div class="vehicles-overview flex-1">
+                <div class="overview-heading">
+                  <h2>Vehicles Overview</h2>
+                  <div class="more">
+                    <span class="more-icon">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </span>
+                    <div class="select-more">
+                      <ul>
+                        <li>Select All</li>
+                        <li>Refresh</li>
+                        <li>Share</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="overview-body">
+                  <div class="vehicles-progress-labels">
+                    <div class="on-the-way" style="width: 39.7%">
+                      <h4>On the way</h4>
+                      <span></span>
+                    </div>
+                    <div class="unloading" style="width: 28.3%">
+                      <h4>Unloading</h4>
+                      <span></span>
+                    </div>
+                    <div class="loading" style="width: 17.4%">
+                      <h4>Loading</h4>
+                      <span></span>
+                    </div>
+                    <div class="waiting" style="width: 14.6%">
+                      <h4>Waiting</h4>
+                      <span></span>
+                    </div>
+                  </div>
+                  <div class="vehicles-overview-progress">
+                    <div class="on-the-way" style="width: 39.7%">
+                      <span>39.7%</span>
+                    </div>
+                    <div class="unloading" style="width: 28.3%">
+                      <span> 28.3%</span>
+                    </div>
+                    <div class="loading" style="width: 17.4%">
+                      <span>17.4%</span>
+                    </div>
+                    <div class="waiting" style="width: 14.6%">
+                      <span>14.6%</span>
+                    </div>
+                  </div>
+                  <div class="vehicles-overview-details">
+                    <div class="on-the-way">
+                      <div class="text">
+                        <i class="fa-solid fa-car-side"></i>
+                        <span>On the way</span>
+                      </div>
+                      <div class="details">
+                        <p>2hr 10min</p>
+                        <span>39.7%</span>
+                      </div>
+                    </div>
+                    <div class="unloading">
+                      <div class="text">
+                        <i class="fa-regular fa-circle-down"></i>
+                        <span>Unloading</span>
+                      </div>
+                      <div class="details">
+                        <p>3hr 15min</p>
+                        <span>28.3%</span>
+                      </div>
+                    </div>
+                    <div class="loading">
+                      <div class="text">
+                        <i class="fa-regular fa-circle-up"></i>
+                        <span>Loading</span>
+                      </div>
+                      <div class="details">
+                        <p>1hr 24min</p>
+                        <span>17.4%</span>
+                      </div>
+                    </div>
+                    <div class="waiting">
+                      <div class="text">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>Waiting</span>
+                      </div>
+                      <div class="details">
+                        <p>5hr 19min</p>
+                        <span>14.6%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Vehicles Overview Widget -->
+              <!-- Start Shipment Statistics Widget -->
+              <div class="shipment-statistics flex-1">
+                <div class="shipment-heading">
+                  <h2>Shipment Statistics</h2>
+                  <div class="month">
+                    <div class="container-month">
+                      <p class="selected-month">January</p>
+                      <span class="month-icon">
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </span>
+                    </div>
+                    <div class="select-month">
+                      <ul>
+                        <li>January</li>
+                        <li>February</li>
+                        <li>March</li>
+                        <li>April</li>
+                        <li>May</li>
+                        <li>June</li>
+                        <li>July</li>
+                        <li>August</li>
+                        <li>September</li>
+                        <li>October</li>
+                        <li>November</li>
+                        <li>December</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="shipment-body">
+                  <canvas id="shipment-chart" width="400" height="400"></canvas>
+                </div>
+              </div>
+              <!-- End Shipment Statistics Widget -->
+              <!-- Start Delivery Performance Widget -->
+              <div class="delivery-performance">
+                <div class="performance-heading">
+                  <h2>Vehicles Overview</h2>
+                  <div class="more">
+                    <span class="more-icon">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </span>
+                    <div class="select-more">
+                      <ul>
+                        <li>Select All</li>
+                        <li>Refresh</li>
+                        <li>Share</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="performance-body">
+                  <div class="box">
+                    <div class="item">
+                      <div class="item-content">
+                        <span class="icon">
+                          <i class="fa-solid fa-cube"></i>
+                        </span>
+                        <div class="text">
+                          <h4>Packages in transit</h4>
+                          <div class="rate up">
+                            <i class="fa-solid fa-chevron-up"></i>
+                            <span>25.8%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="num">10K</span>
+                    </div>
+                    <div class="item">
+                      <div class="item-content">
+                        <span class="icon">
+                          <i class="fa-solid fa-truck"></i>
+                        </span>
+                        <div class="text">
+                          <h4>Packages out for delivery</h4>
+                          <div class="rate up">
+                            <i class="fa-solid fa-chevron-up"></i>
+                            <span>4.3%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="num">5K</span>
+                    </div>
+                    <div class="item">
+                      <div class="item-content">
+                        <span class="icon">
+                          <i class="fa-regular fa-clock"></i>
+                        </span>
+                        <div class="text">
+                          <h4>Packages deliverd</h4>
+                          <div class="rate down">
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <span class="num">12.5%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="num">15K</span>
+                    </div>
+                    <div class="item">
+                      <div class="item-content">
+                        <span class="icon">
+                          <i class="fa-solid fa-percent"></i>
+                        </span>
+                        <div class="text">
+                          <h4>Delivery success rate</h4>
+                          <div class="rate up">
+                            <i class="fa-solid fa-chevron-up"></i>
+                            <span class="num">35.6%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="num">95%</span>
+                    </div>
+                    <div class="item">
+                      <div class="item-content">
+                        <span class="icon">
+                          <i class="fa-regular fa-clock"></i>
+                        </span>
+                        <div class="text">
+                          <h4>Average delivery time</h4>
+                          <div class="rate down">
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <span class="num">2.15%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="num">2.5day</span>
+                    </div>
+                    <div class="item">
+                      <div class="item-content">
+                        <span class="icon">
+                          <i class="fa-solid fa-users"></i>
+                        </span>
+                        <div class="text">
+                          <h4>Customer satisfaction</h4>
+                          <div class="rate up">
+                            <i class="fa-solid fa-chevron-up"></i>
+                            <span class="num">5.7%</span>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="num">4.5/5</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Delivery Performance Widget -->
+              <!-- Start Reasons for delivery exceptions Widget -->
+              <div class="reasons-delivery">
+                <div class="reasons-heading">
+                  <h2>Reasons for delivery exceptions</h2>
+                  <div class="more">
+                    <span class="more-icon">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </span>
+                    <div class="select-more">
+                      <ul>
+                        <li>Select All</li>
+                        <li>Refresh</li>
+                        <li>Share</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="reasons-body">
+                  <canvas id="reasons-chart" width="400" height="400"></canvas>
+                  <div class="text-center-of-canvas">
+                    <h1>30%</h1>
+                    <p>AVG, Exceptions</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Reasons for delivery exceptions Widget -->
+              <!-- Start Orders by Countries Widget -->
+              <div class="orders-countries">
+                <div class="orders-heading">
+                  <div class="text">
+                    <h2>Orders by Countries</h2>
+                    <p>62 deliveries in progress</p>
+                  </div>
+                  <div class="more">
+                    <span class="more-icon">
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </span>
+                    <div class="select-more">
+                      <ul>
+                        <li>Select All</li>
+                        <li>Refresh</li>
+                        <li>Share</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="orders-body">
+                  <div class="btns">
+                    <ul>
+                    <li class="active">New</li>
+                    <li>Preparing</li>
+                    <li>Shipping</li>
+                    </ul>
+                  </div>
+                  <div class="body">
+                    <div class="item">
+                      <div class="box">
+                        <i class="fa-regular fa-circle-check sender"></i>
+                        <div class="text">
+                          <h4 class="sender">sender</h4>
+                          <p>Myrtle Ullrich</p>
+                          <span>101 Boulder, California(CA), 95959</span>
+                        </div>
+                      </div>
+                      <div class="box">
+                        <i class="fa-solid fa-location-dot receiver"></i>
+                        <div class="text">
+                          <h4 class="receiver">receiver</h4>
+                          <p>Barry Schowalter</p>
+                          <span>939 Orange, California(CA), 92118</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="box">
+                        <i class="fa-regular fa-circle-check sender"></i>
+                        <div class="text">
+                          <h4 class="sender">sender</h4>
+                          <p>Veronica Herman</p>
+                          <span>162 Windsor, California(CA), 95492</span>
+                        </div>
+                      </div>
+                      <div class="box">
+                        <i class="fa-solid fa-location-dot receiver"></i>
+                        <div class="text">
+                          <h4 class="receiver">receiver</h4>
+                          <p>Helen Jacobs</p>
+                          <span>487 Sunset, California(CA), 94043</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End Orders by Countries Widget -->
+          </div>
+          <!-- Start On route vehicles Widget -->
+          <div class="route-vehicles flex-1">
+            <div class="route-heading">
+              <div class="text">
+                <h2>On route vehicles</h2>
+              </div>
+              <div class="more">
+                <span class="more-icon">
+                  <i class="fa-solid fa-ellipsis-vertical"></i>
+                </span>
+                <div class="select-more">
+                  <ul>
+                    <li>Select All</li>
+                    <li>Refresh</li>
+                    <li>Share</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="route-body">
+              <div class="location">
+                <label for="checkbox" class="checkbox">
+                  <i class="fa-solid fa-check"></i>
+                  <input type="checkbox" name="" id="checkbox">
+                </label>
+                <ul>
+                  <li>
+                    <h4>location</h4>
+                    <span class="arrows">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </li>
+                  <li>
+                    <h4>starting route</h4>
+                    <span class="arrows">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </li>
+                  <li class="mobile-hidden">
+                    <h4>ending route</h4>
+                    <span class="arrows">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </li>
+                  <li class="mobile-hidden">
+                    <h4>warnings</h4>
+                    <span class="arrows">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </li>
+                  <li class="mobile-hidden">
+                    <h4>progress</h4>
+                    <span class="arrows">
+                      <i class="fa-solid fa-chevron-up"></i>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="data">
+                <span>No data available in table</span>
+              </div>
+              <div class="btns">
+                <span>Showing 0 to 0 of 0 entries</span>
+                <div class="arrow-btns">
+                  <button class="previous">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button class="previous">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End On route vehicles Widget -->
+          <!-- End Dashboard Logistics Page -->
+          <!-- Start Footer Section -->
+          <footer class="footer">
+            <div class="copyright">
+              <span>
+                <div class="con">
+                  &copy; 2024/7/12, made with 
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <p><span class="by">by</span> Youssef El Sayd</p>
+              </span>
+            </div>
+            <div class="links">
+              <span>License</span>
+              <span>More Themes</span>
+              <span>Documentation</span>
+              <span>Support</span>
+            </div>
+          </footer>
+          <!-- End Footer Section -->
+        </main>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/chart.js"></script>
+  </body>
+</html>
